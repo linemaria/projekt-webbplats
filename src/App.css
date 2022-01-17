@@ -1,0 +1,148 @@
+
+@import url("https://use.typekit.net/oek0tql.css");
+
+*{
+  font-family: "poppins";
+}
+#postWrapper{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+
+footer{
+margin-top: 2em;margin-bottom: 2em;
+  width: 100%;
+  text-align: center;
+}
+/*Formulär, formattera med mörkare rosa färg*/
+form{
+  background-color: rgb(250, 207, 207);
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5em;
+  display: block;
+  padding: 50px;
+}
+input{
+  height: 2em;
+  width: 200px;
+  margin-bottom: 0.5em;
+}
+label{
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+select{
+  height: 2em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+span{
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+/* Container för posts, gör i ljusare rosa men ish samma design 
+som formuläret */
+.postBox{
+  width: 300px;
+  border: none;
+  background-color: rgb(252, 235, 235);
+  border-radius: 22px;
+  padding: 3em;
+  margin: 10px;
+  text-align: center;
+}
+
+body{
+  background-color: white;
+
+}
+/* Logga, gör rimlig size, placera högst upp i mitten */
+.logo{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1em;
+}
+/* Rubriker */
+h1{
+ text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-weight: lighter;
+ }
+ #whiteHead{
+   color: white;
+ }
+ h3{
+   font-weight: lighter;
+ }
+button{
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  width: fit-content;
+  text-decoration: none;
+  margin-top: 1em;display: block;
+}
+button:hover{
+  background-color: #f5cccc;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
