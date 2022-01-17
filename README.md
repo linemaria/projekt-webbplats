@@ -8,3 +8,6 @@
  Install the app with npm install 💫
  Run it with npm start ✨
  
+ ## Published
+ Link to published project: https://infallible-mcclintock-7906ca.netlify.app ✌️
+ 
